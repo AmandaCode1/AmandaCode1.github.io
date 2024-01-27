@@ -1,0 +1,79 @@
+/* Estilos generales para el cuerpo de la página */
+
+@font-face {
+    font-family: 'SairaSemiCondensed';
+    src: url('fonts/SairaSemiCondensed-Thin.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Audiowide';
+    src: url('fonts/Audiowide-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Saira_body';
+    src: url('fonts/SairaSemiCondensed-ExtraLight.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Saira_body', sans-serif;
+    background-image: url('imagenes/body.avif'); /* Ruta a tu imagen de fondo del cuerpo */
+    background-size: cover; /* Ajustar la imagen para cubrir todo el fondo */
+}
+
+section {
+    margin: 20px;
+}
+
+/* Estilos para la cabecera */
+header {
+    background-image: url('imagenes/cabecera.jpg'); /* Ruta a tu imagen de fondo para la cabecera */
+    background-size: cover;
+    font-family: 'Audiowide', sans-serif;
+    color: rgb(2, 0, 0); /* Ajusta el color del texto para que sea legible en la imagen de fondo */
+    text-align: center;
+    padding: 50px;
+}
+h2 {
+    font-family: 'SairaSemiCondensed', sans-serif;
+
+}
+
+/* Otros estilos para la navegación, según sea necesario */
+nav {
+    background-color: #333; /* Fondo oscuro para la barra de navegación */
+    padding: 10px;
+}
+
+/* Estilos para la lista de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/*raton por encima*/
+nav ul li a:hover {
+    color: #629fb5; 
+}
+/*al hacer clic*/
+nav ul li a.pagina-actual {
+    color: #629fb5; /* Cambia este color según tus preferencias */
+}
+
+footer {
+    background-color: #333; /* Color de fondo del pie de página, ajusta según tus preferencias */
+    color: white; /* Color del texto del pie de página, ajusta según tus preferencias */
+    text-align: center;
+    padding: 1px;
+}
